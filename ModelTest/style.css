@@ -1,0 +1,70 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+}
+
+img{
+
+    display: block;
+}
+
+
+.header-container{
+    background-color: #000000;
+    color: #fff;
+}
+.header-name{
+    margin-right:70%;
+    margin-left:40px;
+}
+
+.header-item{
+    display: inline-block;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-home{
+    padding-right: 30px;
+}
+
+.about-container{
+    border:2px solid red;
+    /* background-image: url("./assets/portland.jpg"); */
+
+    height: 350apx;
+}
+
+
+.about-card{
+
+    border: 2px solid blue;
+    /* color:#fff; */
+    height: 50%;
+    margin: auto;
+    width: 30%;
+}
+
+.about-card h1{
+    background-color: grey;
+}
+
+.about-profile{
+
+    width: 20%;
+    margin: auto;
+   
+
+
+}

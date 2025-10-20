@@ -1,0 +1,124 @@
+/* universal selector */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* selector for <p> */
+p {
+    color: rgb(201, 94, 94);
+}
+
+/* selector for <body> */
+body {
+    color: rgb(100, 100, 99);
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* ID selector */
+#navBar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    background-color: #222;
+}
+
+#navBar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* class selector */
+.headerPage {
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* descendant selector */
+header span {
+    color: orange;
+}
+
+/* pseudo-classes */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}
+
+a:focus {
+    background-color: yellow;
+    color: black;
+}
+
+/* specific visited link */
+#idVisited:visited {
+    color: rgb(252, 176, 255);
+}
+
+/* sections */
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+/* aside */
+aside {
+    background-color: #eee;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+aside a {
+    color: #333;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* selectori  */
+/* tag id  clasa */
+
+
+p{
+    color:blue;
+    font-size:20px;
+}
+
+.exemplu{
+    color:green;
+}
+
+#important{
+    color:red;
+}

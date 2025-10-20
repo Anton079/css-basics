@@ -1,0 +1,64 @@
+
+.text{
+    border: 2px solid red;
+}
+
+.displayBlock{
+    width: 150px;
+    height: 150px;
+    border:2px solid blue;
+}
+
+.displayInline{
+    width: 150px;
+    height: 150px;
+}
+
+.displayInlineBlock{
+    display:inline-block;
+    width: 50%;
+    height: 150px;
+}
+
+.p{
+    display: none;;
+}
+
+.card{
+    border: 2px solid red;
+    padding: 5px;
+     width: 50%;
+    height:200px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top:50px
+}
+
+.card-item{
+    
+    border: 2px solid red;
+    display: inline-block;
+    margin: 5px;
+    width: 20%;
+    height:20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-item2{
+    display: inline-block;
+  border:2px solid red;
+  min-width: 100px;
+  min-height: 100px;
+  width: 50%;
+  height: 50%;
+}
+
+.card-item3{
+    display: inline-block;
+  border:2px solid red;
+  max-width: 200px;
+  max-width: 200px;
+  width: 100%;
+  height: 100%;
+}
