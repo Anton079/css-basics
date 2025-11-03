@@ -40,31 +40,106 @@ img{
 }
 
 .about-container{
-    border:2px solid red;
-    /* background-image: url("./assets/portland.jpg"); */
-
-    height: 350apx;
+    background: url("./assets/portland.jpg") center top/cover no-repeat;
+    height: 400px;
+    height: 400px;
 }
+
 
 
 .about-card{
-
-    border: 2px solid blue;
-    /* color:#fff; */
     height: 50%;
     margin: auto;
     width: 30%;
+    text-align: center;
 }
 
-.about-card h1{
-    background-color: grey;
+.about-card h1 {
+    background-color: #d4d4d4;
+    color: #000;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 26px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.about-card h4 {
+    background-color: #000000;
+    color: #ffeb3b;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: 500;
+    width: 240px;
+    font-size: 15px;
+    display: inline-block;
 }
 
 .about-profile{
-
-    width: 20%;
-    margin: auto;
-   
-
-
+width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
 }
+
+main {
+    background-color: #f7f6f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    line-height: 1.6;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tag {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 8px;
+    margin: 4px 5px 10px 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    vertical-align: middle;
+}
+
+.html  { background-color: #2196f3; }
+.css   { background-color: #ff9800; }  
+.js    { background-color: #2196f3; }
+.ruby  { background-color: #ff9800; }
+.rails { background-color: #2196f3; } 
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f7f6f2;
+}
+
+
